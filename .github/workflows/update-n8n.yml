@@ -1,9 +1,9 @@
 name: Check for n8n Updates and Sync to Hugging Face Space
 
 on:
-   # schedule:
-   # - cron: '0 3 * * *'
-  workflow_dispatch:
+   schedule:
+   - cron: '0 3 * * *'
+   workflow_dispatch:
 
 jobs:
   check-and-update:
