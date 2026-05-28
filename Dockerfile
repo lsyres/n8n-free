@@ -1,3 +1,3 @@
-FROM docker.n8n.io/n8nio/n8n:2.22.3
+FROM docker.n8n.io/n8nio/n8n:2.23.0
 
 USER node
